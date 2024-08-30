@@ -23,15 +23,15 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #fff;
+    color: #000000;
     text-decoration: none;
 }
 
 .banner {
     text-align: center;
     padding: 2rem;
-    background: #444;
-    color: #fff;
+    background: #d90c0c;
+    color: #000000;
 }
 
 main {
@@ -41,7 +41,7 @@ main {
 footer {
     text-align: center;
     padding: 1rem;
-    background: #f4f4f4;
+    background: #d90c0c;
 }
 
 h1, h2 {
