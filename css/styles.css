@@ -1,14 +1,16 @@
 body {
-    background-color: black;
-    color: white; /* Optional: change text color to white for better readability */
+    background-color: #1e1e1e; /* Darker background for better contrast */
+    color: #e0e0e0; /* Light gray text color for better readability */
     margin: 0;
     padding: 0;
+    font-family: Arial, sans-serif; /* Modern, clean font */
 }
 
 header {
-    background: #7506a9;
-    color: #000000;
+    background: #6d28d9; /* A slightly lighter purple for the header */
+    color: #ffffff; /* White text for better contrast */
     padding: 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
 }
 
 nav ul {
@@ -16,7 +18,8 @@ nav ul {
     margin: 0;
     padding: 0;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
+    gap: 1rem; /* Space between menu items */
 }
 
 nav ul li {
@@ -24,27 +27,54 @@ nav ul li {
 }
 
 nav ul li a {
-    color: #000000;
+    color: #ffffff; /* White text for navigation links */
     text-decoration: none;
+    padding: 0.5rem 1rem;
+    transition: background-color 0.3s, color 0.3s; /* Smooth transition for hover effects */
+}
+
+nav ul li a:hover {
+    background-color: #9a10da; /* Purple background on hover */
+    color: #ffffff; /* Ensure text color remains white */
+    border-radius: 0.3rem; /* Slight rounding for the hover effect */
 }
 
 .banner {
     text-align: center;
-    padding: 2rem;
-    background: #9a10da;
-    color: #000000;
+    padding: 3rem 1rem; /* Increased padding for more emphasis */
+    background: #9a10da; /* Banner background */
+    color: #ffffff; /* White text color */
+    border-bottom: 4px solid #6d28d9; /* Bottom border to separate from the main content */
+    margin-bottom: 2rem; /* Space below the banner */
 }
 
 main {
-    padding: 1rem;
+    padding: 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+    background: #2d2d2d; /* Slightly lighter background for the main content */
+    border-radius: 8px; /* Rounded corners for a modern look */
 }
 
 footer {
     text-align: center;
     padding: 1rem;
-    background: #7506a9;
+    background: #6d28d9; /* Same as header for consistency */
+    color: #ffffff; /* White text color */
+    border-top: 4px solid #9a10da; /* Top border to separate from the main content */
+    margin-top: 2rem; /* Space above the footer */
 }
 
 h1, h2 {
-    color: #ffffff;
+    color: #e0e0e0; /* Light gray text color for headings */
+}
+
+h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
 }
