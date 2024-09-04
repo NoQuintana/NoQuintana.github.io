@@ -102,19 +102,34 @@ a {
 
 /* Project box styles */
 .project-box {
-    display: block;
+    display: inline-block; /* Change to inline-block for horizontal alignment */
     padding: 1rem;
-    margin: 0.5rem 0;
+    margin: 0.5rem;
     background-color: #333333; /* Darker gray background for contrast */
     border: 1px solid #444444; /* Slightly lighter border for definition */
     border-radius: 0.5rem;
     text-align: center;
     transition: background-color 0.3s, border-color 0.3s;
+    width: calc(33.333% - 1rem); /* Adjust width for 3 boxes per row with margin */
+    box-sizing: border-box; /* Ensure padding and border are included in the width */
 }
 
 .project-box:hover {
     background-color: #444444; /* Slightly lighter gray on hover */
     border-color: #555555; /* Slightly lighter border on hover */
+}
+
+/* Minor projects section */
+.links ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+    margin: 0;
+    text-align: center; /* Center align the list items */
+}
+
+.links ul li {
+    display: inline-block; /* Make list items display inline */
+    margin: 0.5rem;
 }
 
 /* Footer link styles */
