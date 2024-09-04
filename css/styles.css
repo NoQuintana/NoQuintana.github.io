@@ -78,3 +78,55 @@ h2 {
     font-size: 1.5rem;
     margin-bottom: 1rem;
 }
+/* General link styles */
+a {
+    text-decoration: none;
+    color: #e0e0e0; /* Light gray text color */
+    font-weight: bold;
+}
+
+/* Navigation link styles */
+.nav-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    background-color: #4b0082; /* Indigo background to complement the purple theme */
+    border-radius: 0.3rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-link:hover {
+    background-color: #6d28d9; /* Purple background on hover */
+    color: #ffffff; /* Ensure text color remains white */
+}
+
+/* Project box styles */
+.project-box {
+    display: block;
+    padding: 1rem;
+    margin: 0.5rem 0;
+    background-color: #333333; /* Darker gray background for contrast */
+    border: 1px solid #444444; /* Slightly lighter border for definition */
+    border-radius: 0.5rem;
+    text-align: center;
+    transition: background-color 0.3s, border-color 0.3s;
+}
+
+.project-box:hover {
+    background-color: #444444; /* Slightly lighter gray on hover */
+    border-color: #555555; /* Slightly lighter border on hover */
+}
+
+/* Footer link styles */
+.footer-link {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #4b0082; /* Indigo background to match nav links */
+    border-radius: 0.3rem;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.footer-link:hover {
+    background-color: #6d28d9; /* Purple background on hover */
+    color: #ffffff; /* Ensure text color remains white */
+}
