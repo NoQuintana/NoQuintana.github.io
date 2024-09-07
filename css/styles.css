@@ -137,3 +137,9 @@ a {
     background-color: #6d28d9; /* Purple background on hover */
     color: #ffffff; /* Ensure text color remains white */
 }
+#profile-pic {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px 0;
+}
