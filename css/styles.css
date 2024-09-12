@@ -143,3 +143,13 @@ a {
     height: 250px;
     margin: 20px 0;
 }
+.problem-validation {
+    display: inline-block;
+    padding: 0.5rem 1rem;
+    background-color: #4b0082; /* Indigo background to complement the purple theme */
+    border-radius: 0.3rem;
+    color: #e0e0e0; /* Light gray text color */
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+}
