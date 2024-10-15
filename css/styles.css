@@ -213,3 +213,33 @@ a {
     height: 500px;
     margin: 50x 0; 
 }
+#Step-1-Cut {
+    display: block;
+    max-width: 100%;
+    height: 500px;
+    margin: 50x 0;    
+}
+#Step-2-Cut {
+    display: block;
+    max-width: 100%;
+    height: 500px;
+    margin: 50x 0;    
+}
+#Step-3-Cut {
+    display: block;
+    max-width: 100%;
+    height: 500px;
+    margin: 50x 0;    
+}
+#Final-Step-Cut {
+    display: block;
+    max-width: 100%;
+    height: 500px;
+    margin: 50x 0;    
+}
+#affinity {
+    display: block;
+    max-width: 100%;
+    height: 500px;
+    margin: 50x 0;    
+}
