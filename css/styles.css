@@ -243,3 +243,15 @@ a {
     height: 500px;
     margin: 50x 0;    
 }
+#Circuit-1 {
+    display: block;
+    max-width: 100%;
+    height: 500px;
+    margin: 50x 0;    
+}
+#Final-circuit {
+    display: block;
+    max-width: 100%;
+    height: 500px;
+    margin: 50x 0;    
+}
