@@ -303,3 +303,27 @@ a {
     height: 500px;
     margin: 50x 0;    
 }
+#arm-sleeve  {
+    display: block;
+    max-width: 100%;
+    height: 500px;
+    margin: 50x 0;    
+}
+#mini-product  {
+    display: block;
+    max-width: 100%;
+    height: 500px;
+    margin: 50x 0;    
+}
+#scan-far  {
+    display: block;
+    max-width: 100%;
+    height: 500px;
+    margin: 50x 0;    
+}
+#scan-close  {
+    display: block;
+    max-width: 100%;
+    height: 500px;
+    margin: 50x 0;    
+}
